@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Project 4 Web App-->
+<!-- Adam Carlton -->
+<!-- VFW1309 -->
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="The DVR Watch List" />
+	<meta name="author" content="Adam Carlton" />
+	<meta name="keywords" content="dvr, tv shows, html5, FSO" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta name="HandheldFriendly" content="true" />
+	<link href="css/styles.css" rel="stylesheet" />
+	<title>DVR Watch List</title>
+</head>
+
+<body>
+	<header>
+		<h1>DVR Watch List</h1>
+	</header>
+	<!-- Start of the Form -->
+	<form action="#" method="post" id="tvForm" />
+		<fieldset>
+			<legend class="formtitle">Add a TV Show/Movie</legend>
+			<ul id="errors"></ul>
+			<ul>
+				<li class="date"><label for="date">Show Starts:</label><input type="date" id="date" /></li>
+				<li class="name"><label for="showname">Show Name:</label><input type="text" id="showname" /></li>
+				<li class="rshow">Recurring Show:
+							<br>
+					<input type="radio" id="r_yes" name="repeat" value="Yes" />
+						<label>Yes</label>
+							<br>
+					<input type="radio" id="r_no" name="repeat" value="No" />
+						<label>No</label>
+				</li>
+				<li id="select" class="net">
+					<label for="networks">Networks:</label>
+						<select id="networks">
+							<option value="no network" selected disabled>--Pick One--</option>
+							<option>ABC</option>
+							<option>AMC</option>
+							<option>AETV</option>
+							<option>the WB</option>
+							<option>NBC</option>
+							<option>CBS</option>
+							<option>Netflix</option>
+							<option>Hulu</option>
+							<option>FOX</option>
+							<option>Disney Channel</option>
+							<option>Nickelodeon</option>
+							<option>Cartoon Network</option>
+							<option>the CW</option>
+							<option>other</option>
+						</select>
+				</li>
+				<li class="personal"><label for="important">How Important Is This Show To You:</label><br><input type="range" id="important" /></li>
+				<li class="parental">Does This Show Need A Parental Block:
+							<br>
+					<input type="radio" id="block_yes" name="add" value="Yes" />
+						<label for="block_yes">Yes</label>
+							<br>
+					<input type="radio" id="block_no" name="add" value="No" />
+						<label for="block_no">No</label>
+				</li>
+				<li class="specialn"><label for="specialnotes">Special Notes About This Show:</label><br><textarea id="specialnotes"></textarea></li>
+				<li class="hideme"><input type="hidden" value="true" /></li>
+
+			</ul>
+
+		</fieldset>
+		<input type="button" id="submit" value="Save Show" />
+	</form>
+		<br>
+	<nav>
+		<a href="#" class="clear" id="clear">Clear Stored Data</a> &nbsp;
+		<a href="#" class="disp" id="displayLink">Display Data</a> &nbsp;
+		<a href="additem.html" id="addNew" style="display:none">Add a Show</a>
+	</nav>
+	<p class="footer"> <small>Adam Carlton &copy; 2013</small></p>
+	<!-- Loading the JSON before the MAIN.JS -->
+	<script src="js/json.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

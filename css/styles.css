@@ -1,0 +1,191 @@
+/* 
+	Project 3 Web App
+	Adam Carlton
+	VFW1309
+*/
+
+html {
+	background-color: rgba(70,99,71,0.86);
+	
+}
+
+.mainlink{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0px;	
+	margin-top: 0px;
+	border: 10px solid rgba(0,0,0,1);
+	padding: 5px;
+	background: -webkit-linear-gradient(rgba(211,217,217,0.95) 10.28%, #ffffff 100%);
+	width:275px;
+	height:50px;
+	text-align: center;
+	text-transform: uppercase;
+	font: 26px xx-large;
+	font-weight: bolder; 
+}
+
+.indexd{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	text-align: center;
+	
+}
+
+.indexp{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: x-large;
+
+	
+	
+}
+
+.img1{
+	display: block;
+	max-width:283px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;	
+	margin-top: 0px;
+	border: 10px solid rgba(0,0,0,1);
+}
+
+.footer{
+	text-align: center;
+	color: #f37029;
+	text-decoration: !important;
+}
+
+
+
+h1 {
+	margin-left:auto;
+	margin-right:auto;	
+	padding: 5px;
+	border: 10px solid rgba(0,0,0,1);
+	background: -webkit-linear-gradient(rgba(211,217,217,0.95) 10.28%, #ffffff 100%);
+	width:275px;
+	text-align: center;
+	text-transform: uppercase;
+	font: 26px xx-large;
+	font-weight: bolder; 
+	
+}
+
+.formtitle{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+
+
+
+.date{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+.name{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+.rshow{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+.net{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+.personal{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+.parental{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+
+.specialn{
+	color: rgba(220,238,238,0.98);
+	font: 15px xx-large;
+	font-weight: bolder;
+	line-height: !important;
+	
+}
+.hideme{
+	display: none; /* <------TO HIDE THE HIDDEN BUTTON */
+	
+}
+.submit{
+	border-top:		    2px solid rgba(0,0,0,0.5);
+	border-left:		2px solid rgba(0,0,0,0.83);
+	border-right:		2px solid rgba(0,0,0,0.5);
+	border-bottom:		2px solid rgba(0,0,0,0.83);
+	padding:		10px 20px !important;
+	font-size:		14px !important;
+	background-color:	-webkit-linear-gradient(rgba(211,217,217,0.95) 10.28%, #ffffff 100%);
+	font-weight:		bold;
+	color:			#000000;
+}
+.clear{
+	border-top:		    2px solid rgba(0,0,0,0.5);
+	border-left:		2px solid rgba(0,0,0,0.83);
+	border-right:		2px solid rgba(0,0,0,0.5);
+	border-bottom:		2px solid rgba(0,0,0,0.83);
+	padding:		10px 20px !important;
+	font-size:		14px !important;
+	background:	-webkit-linear-gradient(rgba(211,217,217,0.95) 10.28%, #ffffff 100%);
+	font-weight:		bold;
+	color:			#000000;
+}
+.disp{
+	border-top:		    2px solid rgba(0,0,0,0.5);
+	border-left:		2px solid rgba(0,0,0,0.83);
+	border-right:		2px solid rgba(0,0,0,0.5);
+	border-bottom:		2px solid rgba(0,0,0,0.83);
+	padding:		10px 20px !important;
+	font-size:		14px !important;
+	background:	-webkit-linear-gradient(rgba(211,217,217,0.95) 10.28%, #ffffff 100%);
+	font-weight:		bold;
+	color:			#000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
